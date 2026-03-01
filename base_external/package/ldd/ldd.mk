@@ -6,6 +6,7 @@
 # https://buildroot.org/downloads/manual/manual.html#rootfs-custom
 # https://buildroot.org/downloads/manual/manual.html#_infrastructure_for_packages_building_kernel_modules
 # https://github.com/cu-ecen-aeld/ldd3 (README)
+# https://chatgpt.com/share/69a3a423-fbb0-8001-85ef-324308f2ad54
 ##############################################################
 
 LDD_VERSION = 'db98b7b3dd9ab82b9258b3792a76e00ae94c08bb'
