@@ -1,5 +1,7 @@
-# Overview
+# ECEN 5713 Final Project (Spring 2026)
+[Project Overview](https://github.com/cu-ecen-aeld/final-project-VenetiaFurtado/wiki/Project-Overview)
 
-This repository contains assignment starter code for buildroot based assignments for the course Advanced Embedded Software Design, ECEN 5713
+[Project Schedule](https://github.com/users/VenetiaFurtado/projects/1/views/1?groupedBy%5BcolumnId%5D=270173513&visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Status%22%2C270173513%5D)
 
-It also contains instructions related to modifying your buildroot project to use with supported hardware platforms.  See [this wiki page](https://github.com/cu-ecen-5013/buildroot-assignments-base/wiki/Supported-Hardware) for details.
+## Team Members
+Venetia Furtado
