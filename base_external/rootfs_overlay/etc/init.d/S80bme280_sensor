@@ -1,0 +1,21 @@
+#!/bin/sh
+
+case "$1" in
+    start)
+        echo "Loading BME280 driver"
+        modprobe i2c-bcm2835
+        modprobe i2c-dev
+        modprobe bme280_sensor
+        echo "bme280_sensor 0x77" > /sys/bus/i2c/devices/i2c-1/new_device
+        ;;
+    stop)
+        echo "Unloading BME280 driver"
+        echo "0x77" > /sys/bus/i2c/devices/i2c-1/delete_device
+        rmmod bme280_sensor
+        ;;
+    *)
+        echo "Usage: $0 {start|stop}"
+        exit 1
+esac
+
+exit 0
