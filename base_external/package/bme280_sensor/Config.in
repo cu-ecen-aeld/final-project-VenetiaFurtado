@@ -1,0 +1,4 @@
+config BR2_PACKAGE_BME280_SENSOR
+	bool "bme280_sensor"
+	help
+	  Supports building and installing the bme280 sensor driver components into the root filesystem
