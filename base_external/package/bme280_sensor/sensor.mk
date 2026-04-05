@@ -7,7 +7,7 @@
 #
 ##############################################################
 
-BME280_SENSOR_VERSION = 'aeda8230e27df56a8cdfef8f4d2af3845995704e'
+BME280_SENSOR_VERSION = '6399a810a21317d8907660cc8371cbbb70a29595'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
