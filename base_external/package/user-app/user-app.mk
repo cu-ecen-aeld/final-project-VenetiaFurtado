@@ -7,7 +7,7 @@
 #
 ##############################################################
 
-USER_APP_VERSION = '0dcb8ac592a7a60f1c220a5494a5bad066481fa5'
+USER_APP_VERSION = 'd6e3a7942cf806fea444b20c87df5edc9c78634e'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
@@ -22,6 +22,8 @@ endef
 define USER_APP_INSTALL_TARGET_CMDS
 
 	$(INSTALL) -m 0755 $(@D)/user-app/user-app $(TARGET_DIR)/usr/bin/
+	$(INSTALL) -m 0755 $(@D)/user-app/sensor_data.sh $(TARGET_DIR)/usr/bin/
+
 
 endef
 
