@@ -7,7 +7,7 @@
 #
 ##############################################################
 
-USER_APP_VERSION = '15cbb6996a26491b2e6e30a351d2c5c135a81493'
+USER_APP_VERSION = '1b69efbb6ef2732c4638eb23f5b1d7828fcd5ada'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
